@@ -9,7 +9,8 @@ Before running this project, ensure you have the following installed:
 
 * Clone the repository:
 git clone https://github.com/VivekZ79/Blog.git
-cd Blog.git
+cd Blog
+
 
 Install dependencies:
 npm install
@@ -21,9 +22,10 @@ MONGODB_URI=<your_mongodb_uri>
 generate it using the command
 JWT_SECRET=<your_jwt_secret>
 
+cd server
 npm start
 cd client
-npm start
+npm start/npm run dev
 
 
 Features
